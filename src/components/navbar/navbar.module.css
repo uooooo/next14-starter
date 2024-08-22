@@ -1,11 +1,26 @@
 .container{
-    height: 100px;
+    /* height: 100px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .logo{
     font-size: 30px;
     font-weight: bold;
+    color: var(--highlight-color);
+    text-shadow: 0 0 10px rgba(233, 69, 96, 0.5);
 }
+
+/* 謎のやつ */
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+    }
+  }
