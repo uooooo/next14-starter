@@ -27,9 +27,9 @@ export default function RootLayout({ children }) {
           <div className='container'>
             <div className='header'>
               <Navbar />
-              <div className='nav-wallet'>
+              {/* <div className='nav-wallet'>
                 <WalletConnect />
-              </div>
+              </div> */}
             </div>
             <main>{children}</main>
             <Footer />
