@@ -2,6 +2,8 @@ import styles from "./singlePost.module.css";
 import Image from "next/image";
 
 const SinglePostPage = async ({ params }) => {
+
+    console.log(params);
     return (
       <div className={styles.container}>
           <div className={styles.imgContainer}>
